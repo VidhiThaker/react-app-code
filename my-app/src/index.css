@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+nav
+{
+  background-color: #03494F;
+  display:flex;
+  height:4em;
+  align-content: center;
+  justify-content: center;
+  
+}
+
+.Logo{
+  width:120px;
+  height:25px;
+  margin-top:20px;
+  }
+select{  
+width:400%;
+margin-left:-50px;
+margin-top:-15px;
+height:45%;
+color:#03494F;
+border:#888888 solid 1px;
+border-radius:5px;
+}
+button{
+  margin-left:230px;
+  height:45%;
+  margin-top:-15px;
+  background-color:#022d31;
+  color:white;
+}
+
+  .filterDiv{
+    background-color: #F5F5F5;
+    display:flex;
+    height:100px;
+    justify-content: center;
+    }
+  .filter{
+    font-size:12px;
+    color:#888888;
+    width:85%;
+    display:flex;
+    margin-top:30px;
+    font-weight: 600;
+  }
+  .tableDiv
+  {
+    align-content: center;
+    justify-content: center;
+    display:flex;
+  }
+  table{
+    width:85%;
+    border-collapse: collapse;
+  }
+  thead tr{
+    background-color: white;
+    box-shadow: 1px 2px 1px #e6e6e6;
+    height:4.5em !important;
+    font-size:12px;
+    color: #03494F;
+    font-weight: 500;
+  }
+  tbody tr td{
+    border-bottom: solid #f0f3f4 1px;
+    height:3em;
+    color:#668186;
+    font-size:12px;
+    font-weight: 500;
+  }
+  .paidClass{
+    text-transform: uppercase;
+    background-color: #B0DECB;
+    border-radius: 15px;
+    padding:3px 9px 3px 9px;
+    color:black;
+    font-weight: 700;
+  }
+  .deliveredClass{
+    text-transform: uppercase;
+    background-color: #C5C4FF;
+    color:black;
+    border-radius: 15px;
+    padding:3px 9px 3px 9px;
+    font-weight:700;
+  }
+  .market{
+    color:white;
+    background-color:#3D3D3D;
+    padding:2px 5px 2px 5px;
+    font-size:9px;
+    text-transform: uppercase;
+    font-weight:700;
+    margin-right:10px;
+    margin-left:10px;
+  }
+  .hidden{
+    display:none;
+  }
+  .first{
+    color:black;
+    background-color: #FFEC5F;
+    border-radius: 15px;
+    padding:3px 9px 4px 9px;
+    font-size:9px;
+    font-weight:700;
+  }
